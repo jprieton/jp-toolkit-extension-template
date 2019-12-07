@@ -1,0 +1,1 @@
+# jpwp-plugin-template
