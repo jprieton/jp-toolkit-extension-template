@@ -1,1 +1,1 @@
-# jpwp-plugin-template
+# JP Toolkit Extension Template
