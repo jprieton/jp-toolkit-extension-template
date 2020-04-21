@@ -35,4 +35,6 @@ sed -i "s|${OLD_NAME}|${NEW_NAME}|g" ./README.md
 
 mv "${OLD_SLUG}.php" "${NEW_SLUG}.php"
 
+wp i18n make-pot .
+
 echo "Done!"
