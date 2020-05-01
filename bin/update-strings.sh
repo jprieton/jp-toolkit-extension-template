@@ -22,6 +22,7 @@ find ./tests -iname "*.php" -type f -exec sed -i "s|${OLD_SLUG}|${NEW_SLUG}|g" {
 find ./tests -iname "*.pot" -type f -exec sed -i "s|${OLD_SLUG}|${NEW_SLUG}|g" {} \;
 find ./tests -iname "*.po" -type f -exec sed -i "s|${OLD_SLUG}|${NEW_SLUG}|g" {} \;
 sed -i "s|${OLD_SLUG}|${NEW_SLUG}|g" ./jp-toolkit-extension-template.php
+sed -i "s|${OLD_SLUG}|${NEW_SLUG}|g" ./README.md
 sed -i "s|${OLD_SLUG}|${NEW_SLUG}|g" ./.gitattributes
 sed -i "s|${OLD_SLUG}|${NEW_SLUG}|g" ./composer.json
 
